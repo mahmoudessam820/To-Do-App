@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![](./frontend/src/assets/app_icon.png)
+
 full-stack To-Do app with Flask&Vue.js 
 
 To-Do is a task management app to help you stay organized and manage your day-to-day.
@@ -84,12 +86,12 @@ pip install -r requirements.txt
 3. **Run the development server:**
 ```
 In Bash
-export FLASK_APP=run.oy
+export FLASK_APP=app.oy
 export FLASK_ENV=development # enables debug mode
 flask run --reload 
 
 In Windows
-set FLASK_APP=run.py
+set FLASK_APP=app.py
 set FLASK_ENV=development # enables debug mode
 flask run --reload 
 ```
